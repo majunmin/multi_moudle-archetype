@@ -3,19 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.mjm</groupId>
-        <artifactId>shareit-${artifactId}-manager</artifactId>
+        <groupId>${groupId}</groupId>
+        <artifactId>${rootArtifactId}-all</artifactId>
         <version>${version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>${artifactId}-dao</artifactId>
+    <groupId>${groupId}</groupId>
+    <artifactId>${rootArtifactId}-dao</artifactId>
 
     <dependencies>
 
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${artifactId}-model</artifactId>
+            <artifactId>${rootArtifactId}-model</artifactId>
         </dependency>
 
         <dependency>

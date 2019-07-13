@@ -3,12 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.mjm</groupId>
-        <artifactId>shareit-${artifactId}-manager</artifactId>
+        <groupId>${groupId}</groupId>
+        <artifactId>${rootArtifactId}-all</artifactId>
         <version>${version}</version>
     </parent>
 
-    <artifactId>${artifactId}-admin</artifactId>
+    <groupId>${groupId}</groupId>
+    <artifactId>${rootArtifactId}-admin</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -18,7 +19,7 @@
 
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>${artifactId}-service</artifactId>
+            <artifactId>${rootArtifactId}-service</artifactId>
         </dependency>
 
         <dependency>

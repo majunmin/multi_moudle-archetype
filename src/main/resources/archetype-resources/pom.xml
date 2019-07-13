@@ -23,7 +23,6 @@
 
     <properties>
         <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
-        <spring.version>5.1.5</spring.version>
         <mybatis.version>3.4.5</mybatis.version>
         <mybatis-spring.version>1.2.0</mybatis-spring.version>
         <mybatis-pagehelper.version>5.1.2</mybatis-pagehelper.version>
@@ -48,31 +47,31 @@
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-common</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-dao</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-manager</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-service</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
 
             <dependency>
                 <groupId>${groupId}</groupId>
                 <artifactId>${artifactId}-model</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
 
             <!--如果使用多数据源连接数据库-->

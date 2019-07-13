@@ -22,7 +22,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.mjm.${rootArtifactId}.model.entity" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="${package}.${rootArtifactId}.model.entity" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaModelGenerator>
 
@@ -30,7 +30,7 @@
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="com.mjm.${rootArtifactId}.dao.mapper" type="XMLMAPPER"
+        <javaClientGenerator targetPackage="${package}.${rootArtifactId}.dao.mapper" type="XMLMAPPER"
                              targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
