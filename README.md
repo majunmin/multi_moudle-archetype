@@ -26,4 +26,8 @@ groupId:com.mjm
 并增加参数指定 package: com.mjm.demo1
 
 
+##
+可以下模板文件下自定义自己的文件，以后生成项目就快了
+
+
 
